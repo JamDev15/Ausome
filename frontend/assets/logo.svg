@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="120" viewBox="0 0 400 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="iconBg" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#5B8DEF"/>
+      <stop offset="100%" stop-color="#6EC6A1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ── ICON MARK ── -->
+  <rect width="120" height="120" rx="26" fill="url(#iconBg)"/>
+
+  <!-- Periodic-table dividers -->
+  <rect x="10" y="31" width="100" height="1" rx="0.5" fill="rgba(255,255,255,0.25)"/>
+  <rect x="10" y="84" width="100" height="1" rx="0.5" fill="rgba(255,255,255,0.25)"/>
+
+  <!-- Element name -->
+  <text x="60" y="24"
+    text-anchor="middle"
+    fill="rgba(255,255,255,0.75)"
+    font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+    font-size="10" font-weight="700" letter-spacing="3.5">GOLD</text>
+
+  <!-- "Au" symbol -->
+  <text x="60" y="73"
+    text-anchor="middle"
+    fill="white"
+    font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+    font-size="44" font-weight="900">Au</text>
+
+  <!-- Atomic number -->
+  <text x="60" y="101"
+    text-anchor="middle"
+    fill="rgba(255,255,255,0.75)"
+    font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+    font-size="13" font-weight="700" letter-spacing="2">79</text>
+
+  <!-- ── WORDMARK ── -->
+  <!-- "Au" in amber/gold — echoes the element -->
+  <text x="144" y="80"
+    fill="#F7A44A"
+    font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+    font-size="60" font-weight="900">Au</text>
+
+  <!-- "some" in deep navy -->
+  <text x="219" y="80"
+    fill="#1A2340"
+    font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+    font-size="60" font-weight="900">some</text>
+
+  <!-- Tagline -->
+  <text x="145" y="103"
+    fill="#8894B0"
+    font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+    font-size="11" font-weight="500" letter-spacing="2.5">AUTISM CARE &amp; SUPPORT</text>
+</svg>

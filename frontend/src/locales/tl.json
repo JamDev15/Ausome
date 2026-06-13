@@ -1,0 +1,342 @@
+{
+  "_note": "TODO: Ipabasa sa isang katutubong tagapagsalita ng Tagalog na may kaalaman sa autism bago i-launch. Layunin: mainit, marespeto, hindi klinikal. Gamitin ang 'inyo/inyong' para sa respeto. | TODO: Have a native Tagalog speaker familiar with autism review all strings before launch.",
+
+  "common": {
+    "next": "Susunod",
+    "back": "Bumalik",
+    "save_later": "I-save at ituloy mamaya",
+    "step_of": "Hakbang {{current}} ng {{total}}",
+    "done": "Tapos na",
+    "skip": "Laktawan",
+    "save": "I-save",
+    "cancel": "Kanselahin",
+    "change_language": "Palitan ang wika",
+    "loading": "Naglo-load…",
+    "generating": "Ginagawa ang inyong plano…",
+    "error_generic": "May nangyaring mali. Pakisubukan ulit."
+  },
+
+  "language_select": {
+    "welcome_en": "Welcome — choose your language to continue.",
+    "welcome_tl": "Maligayang pagdating — pumili ng wika para magpatuloy.",
+    "note": "Maaaring baguhin ito anumang oras sa Mga Setting.",
+    "btn_english": "English",
+    "btn_tagalog": "Tagalog",
+    "tagalog_subtitle": "Wikang Filipino"
+  },
+
+  "onboarding": {
+    "intro_title": "Alamin natin ang tungkol sa inyong anak",
+    "intro_body": "Mga 5 minuto lang ito. Ang inyong mga sagot ay tutulong sa amin na gumawa ng pang-araw-araw na rutina at mga layunin para sa inyong pamilya.",
+    "intro_start": "Simulan na natin",
+    "save_later_confirm": "Na-save na ang inyong progreso. Maaari ninyong ituloy ito anumang oras mula sa home screen.",
+
+    "step_child_name": {
+      "question": "Ano ang pangalan ng inyong anak?",
+      "placeholder": "hal. Aiden",
+      "helper": "Ito ang gagamitin namin sa buong app."
+    },
+    "step_child_age": {
+      "question": "Ilang taon na si {{name}}?",
+      "placeholder": "Ilagay ang edad",
+      "helper": "Ang edad ay tumutulong sa amin na magmungkahi ng angkop na mga aktibidad at rutina.",
+      "years": "taong gulang"
+    },
+    "step_diagnosis": {
+      "question": "Kailan na-diagnose si {{name}}?",
+      "placeholder": "hal. 2022",
+      "helper": "Halos-eksaktong taon ay okay lang. Nakakatulong ito sa amin na maunawaan kung saan kayo sa inyong paglalakbay.",
+      "skip": "Hindi pa na-diagnose / Laktawan"
+    },
+    "step_communication": {
+      "question": "Paano nakikipag-usap si {{name}}?",
+      "helper": "Piliin ang pinaka-angkop na sagot para sa ngayon.",
+      "nonverbal": "Hindi nagsasalita",
+      "nonverbal_desc": "Gumagamit ng galaw, tunog, o kilos ng katawan",
+      "minimal": "Kakaunti ang sinasabi",
+      "minimal_desc": "Ilang salita o parirala",
+      "verbal": "Nagsasalita",
+      "verbal_desc": "Gumagamit ng pangungusap, kailangan ng tulong",
+      "fluent": "Matatas",
+      "fluent_desc": "Malinaw ang pagsasalita karamihan ng oras",
+      "aac": "Gumagamit ng AAC",
+      "aac_desc": "Picture board, device, o PECS"
+    },
+    "step_challenges": {
+      "question": "Ano ang pinakamahirap para kay {{name}} ngayon?",
+      "helper": "Piliin lahat ng angkop — maging tapat, para sa inyo lang ito.",
+      "sleep": "Tulog",
+      "feeding": "Pagkain",
+      "transitions": "Paglipat ng aktibidad",
+      "meltdowns": "Meltdown (matinding pagdadamdamin)",
+      "social": "Pakikisama sa iba",
+      "focus": "Pokus / Konsentrasyon",
+      "motor": "Galaw ng katawan (motor skills)",
+      "toileting": "Paggamit ng CR",
+      "anxiety": "Pag-aalala / Anxiety",
+      "sensory": "Sensitivity sa pandama"
+    },
+    "step_strengths": {
+      "question": "Ano ang gustong-gusto o kahusayan ni {{name}}?",
+      "helper": "Piliin lahat ng angkop. Ginagawa naming batayan ng rutina ang mga kalakasan.",
+      "music": "Musika",
+      "numbers": "Mga numero at pattern",
+      "animals": "Mga hayop",
+      "drawing": "Pagguhit at sining",
+      "routines": "Pagsunod sa rutina",
+      "technology": "Teknolohiya",
+      "reading": "Mga libro at pagbabasa",
+      "movement": "Paggalaw at palakasan",
+      "crafts": "Pagtatayo at paggawa",
+      "nature": "Labas ng bahay at kalikasan",
+      "freetext_label": "May iba pa? (opsyonal)",
+      "freetext_placeholder": "hal. tren, dinosaur, mapa…"
+    },
+    "step_schedule": {
+      "question": "Paano ang isang araw ni {{name}}?",
+      "helper": "Halos-eksaktong oras ay okay lang.",
+      "wake_time": "Oras ng pagbangon",
+      "school_start": "Simula ng paaralan / therapy",
+      "school_end": "Katapusan ng paaralan / therapy",
+      "no_school": "Walang paaralan / Nasa bahay buong araw",
+      "bedtime": "Oras ng tulog",
+      "screen_time": "Screen time kada araw",
+      "screen_none": "Wala",
+      "screen_30": "Wala pang 30 minuto",
+      "screen_1h": "Mga 1 oras",
+      "screen_2h": "1–2 oras",
+      "screen_more": "Mahigit 2 oras"
+    },
+    "step_goals": {
+      "question": "Ano ang inyong pangunahing layunin para kay {{name}} ngayon?",
+      "helper": "Pumili ng hanggang 3. Gagawa kami ng plano batay dito.",
+      "max_hint": "Hanggang 3 layunin",
+      "sleep": "Mas mabuting tulog",
+      "mealtime": "Mas maayos na oras ng kain",
+      "meltdowns": "Mas kaunting meltdown",
+      "communication": "Mas maraming komunikasyon",
+      "toileting": "Pagiging independyente sa CR",
+      "sensory": "Pamamahala ng pandama",
+      "social": "Mga kasanayan sa pakikisama",
+      "school": "Paghahanda para sa paaralan",
+      "instructions": "Pagsunod sa mga tagubilin",
+      "emotional": "Pamamahala ng damdamin",
+      "independence": "Pang-araw-araw na kalayaan"
+    },
+    "step_support": {
+      "question": "Sino pa ang sumusuporta kay {{name}}?",
+      "helper": "Nakakatulong ito sa amin na makilala ang inyong buong koponan ng pag-aalaga.",
+      "other_parent": "Isa pang magulang / katrabahong magulang",
+      "lola_lolo": "Lola / Lolo (mga lolo at lola)",
+      "siblings": "Mga kapatid (Kuya / Ate)",
+      "therapist": "Terapeuta / OT / SLP",
+      "teacher": "Guro / aide sa paaralan",
+      "caregiver": "Ibang tagapag-alaga",
+      "just_me": "Ako lang kadalasan"
+    },
+
+    "result_title": "Handa na ang inyong plano! 🎉",
+    "result_subtitle": "Narito ang pang-araw-araw na rutina ni {{name}} at ang inyong 3 layunin bilang magulang.",
+    "result_routine_tab": "Pang-araw-araw na Rutina",
+    "result_goals_tab": "Mga Layunin Ko",
+    "result_done": "Simulan ang Ading",
+    "result_save_pdf": "I-save bilang PDF",
+
+    "routine_section_morning": "Umaga",
+    "routine_section_midday": "Tanghali",
+    "routine_section_afternoon": "Hapon",
+    "routine_section_evening": "Gabi",
+
+    "goal_label_week1": "Linggo 1",
+    "goal_label_week2": "Linggo 2",
+    "goal_label_week4": "Buwan 1",
+    "goal_why": "Bakit ito mahalaga",
+    "goal_how": "Paano magsisimula",
+    "goal_frequency": "{{frequency}} sa loob ng {{days}} araw"
+  },
+
+  "routine": {
+    "morning_wake": "Pagbangon at pagsisimula ng araw",
+    "morning_hygiene": "Pagsisipilyo at paglilinis",
+    "morning_breakfast": "Oras ng agahan",
+    "morning_visual_review": "Tingnan ang schedule ngayon",
+    "morning_sensory": "Paghahanda ng pandama",
+    "morning_aac": "AAC board check-in",
+    "morning_prepare": "Ihanda ang bag at damit",
+    "morning_transition": "Paglalakbay papunta sa paaralan",
+    "midday_lunch": "Oras ng tanghalian",
+    "midday_break": "Pahinga sa katanghalian",
+    "midday_learning": "Oras ng pag-aaral",
+    "midday_therapy": "Therapy / OT / SLP session",
+    "midday_movement": "Pahinga para sa paggalaw",
+    "afternoon_snack": "Meryenda pagkatapos ng paaralan",
+    "afternoon_play": "Libreng laro / oras sa labas",
+    "afternoon_sensory": "Pahinga ng pandama",
+    "afternoon_social": "Oras ng pakikipaglaro",
+    "afternoon_homework": "Takdang-aralin / nakabalangkas na aktibidad",
+    "afternoon_creative": "Malikhaing aktibidad",
+    "evening_dinner": "Oras ng hapunan",
+    "evening_bath": "Paliligo at kalinisan",
+    "evening_calm": "Oras ng pagpapahinga",
+    "evening_story": "Kwento / tahimik na pagbabasa",
+    "evening_visual_tomorrow": "Tingnan ang schedule bukas",
+    "evening_sleep": "Oras ng tulog"
+  },
+
+  "why": {
+    "predictable_start": "Ang pare-parehong simula ng umaga ay tumutulong sa pag-regulate ng nervous system ng inyong anak at nakababawas ng pagkabalisa sa umaga.",
+    "hygiene_routine": "Ang hakbang-hakbang na rutina sa kalinisan ay nagtatayo ng kalayaan at sensory tolerance sa paglipas ng panahon.",
+    "structured_meal": "Ang pagkain sa pare-parehong oras ay nakababawas ng pagtanggi sa pagkain at nagbibigay ng seguridad sa nutrisyon.",
+    "visual_schedule": "Ang pagtingin sa buong araw ay nakababawas ng pagkabalisa at nakakatulong sa inyong anak na makaramdam ng kaligtasan.",
+    "sensory_warmup": "Ang mahinahong sensory input bago magtungo sa paaralan ay naghahanda ng nervous system at nagpapabuti ng pokus.",
+    "aac_morning": "Ang pag-eehersisyo ng AAC tuwing umaga ay nagtatakda ng tono para sa komunikasyon sa buong araw.",
+    "calm_transition": "Ang mga babala bago lumipat ng aktibidad ay nakababawas ng stress ng paglipat.",
+    "midday_rest": "Ang mga maikling pahinga ay pumipigil sa labis na sensory load at sumusuporta sa patuloy na atensyon.",
+    "movement_break": "Ang paggalaw ay nag-re-regulate ng nervous system at nagpapabuti ng pokus para sa pag-aaral.",
+    "learning_activity": "Ang nakahulang oras ng pag-aaral ay nagtatayo ng akademikong rutina nang walang pressure.",
+    "therapy_session": "Ang pare-parehong iskedyul ng therapy ay nakakatulong sa mga kasanayan na mapasama sa pang-araw-araw na buhay.",
+    "afternoon_play": "Ang libreng laro na pinamumunuan ng bata ay nagtatayo ng pagkamalikhain, self-regulation, at kagalakan.",
+    "sensory_break": "Ang mga nakaplanong pahinga ng pandama ay pumipigil sa labis na pagod bago pa mangyari ang meltdown.",
+    "social_play": "Ang mababang-presyon na oras ng pakikisama ay nagtatayo ng kasanayan sa koneksyon nang walang labis na hinihingi.",
+    "calming_dinner": "Ang tahimik na hapunan ay sumusuporta sa digestion at koneksyon ng pamilya.",
+    "bath_routine": "Ang maainit na paliligo na may pare-parehong mga hakbang ay nagbibigay senyal sa katawan na oras na para matulog.",
+    "wind_down": "Ang oras ng pahinga na walang screen ay tumutulong sa nervous system na lumipat sa mode ng tulog.",
+    "story_time": "Ang pagbabasa nang magkasama ay nagtatayo ng wika, pagmamahal, at positibong kaugnayan sa tulog.",
+    "preview_tomorrow": "Ang pagtingin sa bukas ay nakababawas ng pagkabalisa sa gabi at pagtutol sa umaga.",
+    "sleep_hygiene": "Ang pare-parehong oras ng tulog ay nagpapabuti ng mood, pag-aaral, at ugali sa lahat ng larangan."
+  },
+
+  "tips": {
+    "morning_wake_nonverbal": "Gumamit ng pare-parehong tunog o liwanag (parehong kanta, parehong ilaw) sa halip na mga salita.",
+    "morning_wake_verbal": "Magbigay ng babala na 5 minuto bago hilingin sa kanila na bumangon. Ang pag-aalok ay nagdudulot ng dysregulation.",
+    "visual_schedule_tip": "Ituro ang bawat picture card habang tinutupad ito, pagkatapos ay hayaan ang inyong anak na ilipat o markahan ito.",
+    "hygiene_steps": "Hatiin ang kalinisan sa 3–5 mga picture step na nakapost sa banyo. Purihin ang bawat hakbang.",
+    "breakfast_picky": "Mag-alok ng isang ligtas na pagkain kasama ng isang bagong pagkain. Huwag pilitin — ang paulit-ulit na pagkakalantad ay nagtatayo ng toleransya.",
+    "sensory_warmup_tip": "Subukan ang 2 minuto ng mabigat na gawain (pagtulak sa dingding, pagdadala ng mochila) bago pumunta sa paaralan.",
+    "aac_morning_tip": "Ituro ang picture ng schedule sa AAC board at sabay na sabihin ang salita tuwing umaga.",
+    "calm_transition": "Magbigay ng babala na 5 minuto, pagkatapos ay 2 minuto bago ang bawat paglipat.",
+    "midday_rest_tip": "Ang tahimik na sulok na may headphones, weighted blanket, o mahinang ilaw ay epektibo.",
+    "movement_tip": "Ang star jumps, animal walks, o maikling lakad ay lahat ay epektibo.",
+    "afternoon_play_tip": "Hayaan ang inyong anak na pumili ng aktibidad. Ang walang istrukturang oras ay nakababawas ng demand at nagtatayo ng kagalakan.",
+    "sensory_break_tip": "Abangan ang maagang palatandaan ng labis na load (pagtakip ng tainga, pag-ikot-ikot) at mag-alok ng pahinga agad.",
+    "social_tip": "Magsimula sa isang pamilyar na kasamahan sa loob ng 20 minuto sa halip na grupo.",
+    "bath_tip": "Gumamit ng parehong produkto sa paliligo, parehong pagkakasunod-sunod, parehong tuwalya. Ang pagiging mapanghulaan ay nakakapanatag.",
+    "wind_down_tip": "Pabain ang ilaw 30 minuto bago matulog. Iwasan ang screen. Nakakatulong ang malambot na musika o white noise.",
+    "story_tip": "Hayaan ang inyong anak na pumili ng libro. Okay lang ang paulit-ulit na pagbabasa ng parehong libro — nakakapanatag ito.",
+    "preview_tip": "Gumamit ng 2–3 picture cards para ipakita ang mangyayari bukas ng umaga. Panatilihing maikli at positibo.",
+    "sleep_tip": "Ang pare-parehong oras ng tulog sa loob ng 15 minuto bawat gabi ay may pinakamalakas na epekto sa kalidad ng tulog."
+  },
+
+  "goal": {
+    "improve_sleep_routine": {
+      "title": "Itayo ang pare-parehong rutina sa oras ng tulog",
+      "behavior": "Tapusin ang 4 na hakbang na wind-down routine (paliligo, mahinang ilaw, kwento, tulog) sa parehong oras tuwing gabi",
+      "frequency": "tuwing gabi",
+      "why": "Ang tulog ay ang pinaka-malaking pagbabago para sa ugali, pokus, at mood. Ang maaasahang rutina sa gabi ay nagtuturo sa utak na umasa ng tulog.",
+      "how": "Magsimula sa isang pagbabago lang — pumili ng pare-parehong oras ng tulog at sundin ito sa loob ng 7 gabi bago magdagdag ng higit pang mga hakbang.",
+      "week1": "Parehong oras ng tulog 5 sa 7 gabi",
+      "week2": "2-hakbang na rutina (paliligo + kwento) natapos 5 sa 7 gabi",
+      "week4": "Buong 4-hakbang na rutina natapos karamihan ng gabi; mas kaunting pagtutol bago matulog ang inyong anak"
+    },
+    "consistent_mealtime": {
+      "title": "Lumikha ng tahimik at nakaplanong oras ng kain",
+      "behavior": "Mag-serve ng pagkain sa parehong oras tuwing araw na may pare-parehong plato, upuan, at visual sequence",
+      "frequency": "3× bawat araw",
+      "why": "Ang maaasahang oras ng kain ay nakababawas ng sensory stress sa pagkain at unti-unting nagpapalawak ng pagtanggap ng pagkain.",
+      "how": "Pumili ng isang kain para magsimula (kadalasan ay agahan). Gumamit ng parehong plato, parehong upuan, parehong 2–3 pagkain sa loob ng isang linggo.",
+      "week1": "Agahan inihain sa parehong oras nang walang pressure sa loob ng 7 araw",
+      "week2": "Ang inyong anak ay nakaupo ng 10+ minuto sa 2 kain bawat araw nang walang malaking distress",
+      "week4": "Ang pagtanggi sa pagkain ay kapansin-pansing bumaba; ang inyong anak ay nagtitiyaga ng isang bagong pagkain kasama ng mga ligtas na pagkain"
+    },
+    "reduce_meltdowns": {
+      "title": "Itayo ang toolkit para sa malalaking sandali",
+      "behavior": "Tukuyin ang 3 maagang babala at mag-ehersisyo ng 2 paraan ng pagpapanatag bago pa tumaas ang meltdown",
+      "frequency": "kung kinakailangan, mag-ehersisyo araw-araw",
+      "why": "Ang meltdown ay komunikasyon. Ang pagtuturo ng mga kasangkapan sa regulasyon ay tumutulong sa inyong anak na mag-self-soothe at nakababawas ng stress ng pamilya.",
+      "how": "Ngayong linggo: tukuyin ang 3 pinakamaagang babala ng inyong anak. Isulat ang mga ito.",
+      "week1": "Maaari ninyong pangalanan ang 3 maagang babala at 1 epektibong paraan ng pagpapanatag",
+      "week2": "Nakikialam kayo sa maagang yugto ng babala nang hindi bababa sa 3 beses nang walang pag-escalate",
+      "week4": "Ang tagal at dalas ng meltdown ay kapansin-pansing nabawasan; ang inyong anak ay nagsisimulang gumamit ng 1 estratehiya nang kusa"
+    },
+    "communication_practice": {
+      "title": "Pang-araw-araw na pagsasanay sa komunikasyon",
+      "behavior": "Gumastos ng 10 minuto bawat araw sa isang nakatuon na palitan ng komunikasyon — verbal, AAC, o batay sa galaw",
+      "frequency": "araw-araw, 10 minuto",
+      "why": "Ang madalas, mababang-presyon na mga pagkakataon sa komunikasyon ay ang pinaka-epektibong paraan para magtayo ng wika — higit pa sa pormal na therapy lamang.",
+      "how": "Sundan ang gabay ng inyong anak. Ilarawan ang kanilang ginagawa ('Tinutulak mo ang kotse!') nang hindi humihingi ng tugon.",
+      "week1": "10-minutong play-based na sesyon ng komunikasyon nagaganap ng 5 sa 7 araw",
+      "week2": "Ang inyong anak ay nagsisimula ng komunikasyon (galaw, tunog, salita) nang hindi bababa sa isang beses bawat sesyon",
+      "week4": "Kapansin-pansing pagtaas ng mga pagtatangkang makipag-usap sa panahon ng sesyon at sa pang-araw-araw na buhay"
+    },
+    "toileting_independence": {
+      "title": "Itayo ang kalayaan sa CR hakbang-hakbang",
+      "behavior": "Sundin ang pare-parehong iskedyul ng CR at visual na rutina",
+      "frequency": "bawat 2 oras sa oras ng pagising",
+      "why": "Ang kalayaan sa CR ay nagpapabuti ng self-confidence at nakababawas ng isa sa pinakamalalaking pinagmumulan ng stress ng pamilya.",
+      "how": "Magsimula sa nakaplanong mga pagbisita sa CR bawat 2 oras. Gumamit ng simpleng visual sequence na nakapost sa banyo.",
+      "week1": "Ang nakaplanong mga pagbisita sa CR ay nagaganap nang tuluy-tuloy nang walang pagtanggi karamihan ng araw",
+      "week2": "Ang inyong anak ay nakakagawa ng 2+ hakbang ng visual routine nang mag-isa",
+      "week4": "Ang inyong anak ay nagsisimula o nakikipagtulungan sa CR nang hindi bababa sa 70% ng oras"
+    },
+    "sensory_regulation": {
+      "title": "Bumuo ng pang-araw-araw na sensory diet",
+      "behavior": "Magbigay ng 3 nakaplanong pagkakataon ng sensory input sa buong araw",
+      "frequency": "3× bawat araw",
+      "why": "Ang maaasahang sensory diet ay nakababawas ng labis na load, nagpapabuti ng pokus, at nagbibigay ng kailangan ng nervous system ng inyong anak para manatiling regulado.",
+      "how": "Tukuyin ang pangunahing sensory na pangangailangan ng inyong anak (paggalaw? presyon? katahimikan?). Magdagdag ng isang 10-minutong sensory break pagkatapos ng agahan.",
+      "week1": "Isang sensory break sa umaga na idinagdag sa rutina nang walang pagtanggi",
+      "week2": "Tatlong sensory break na nakaplanong; ang inyong anak ay mas maayos na lumilipat sa mga aktibidad pagkatapos",
+      "week4": "Mas kaunting meltdown na dulot ng pandama; ang inyong anak ay nagsisimulang hanapin ang kanilang mga sensory tool nang kusa"
+    },
+    "social_skills": {
+      "title": "Lumikha ng regular na mababang-presyon na sandali ng pakikisama",
+      "behavior": "Mag-ayos ng isang nakaplanong aktibidad sa pakikisama bawat linggo kasama ang isang pamilyar na kasamahan",
+      "frequency": "1× bawat linggo",
+      "why": "Ang paulit-ulit, mababang-presyon na karanasan sa pakikisama ay nagtatayo ng mga kasanayan sa koneksyon nang mas epektibo kaysa sa grupo.",
+      "how": "Magsimula sa 20-minutong playdate sa bahay (ligtas na espasyo ng inyong anak) kasama ang isang pamilyar na bata.",
+      "week1": "Isang playdate o aktibidad sa pakikisama — anumang resulta ay tagumpay",
+      "week2": "Ang inyong anak ay nakakatagal ng 20+ minuto ng malapit na isa pang bata nang walang malaking distress",
+      "week4": "Ang inyong anak ay nagpapakita ng interes sa o nagsisimula ng pakikipag-ugnayan sa isang kasamahan nang hindi bababa sa isang beses"
+    },
+    "school_readiness": {
+      "title": "Itayo ang matibay na paglipat mula paaralan patungong bahay",
+      "behavior": "Lumikha ng pare-parehong rutina sa pag-uwi mula paaralan para sa decompression",
+      "frequency": "araw-araw pagkatapos ng paaralan",
+      "why": "Ang mga batang may autism ay kadalasang nagtitiis sa paaralan at nag-dedecompress sa bahay. Ang maaasahang rutina sa pagdating ay pumipigil sa meltdown.",
+      "how": "Pagkatapos ng paaralan: mag-alok ng tahimik na meryenda, walang kahilingan, at gustong aktibidad sa loob ng 15–20 minuto bago ang takdang-aralin.",
+      "week1": "Rutina ng meryenda pagkatapos ng paaralan ay nasa lugar na nang may wala pang 3 meltdown ngayong linggo",
+      "week2": "Ang inyong anak ay lumilipat mula paaralan patungong bahay at nag-dedecompress sa loob ng 20 minuto karamihan ng araw",
+      "week4": "Ang emosyonal na regulasyon sa araw ng paaralan ay nagpabuti; mas kaunting meltdown sa katapusan ng araw"
+    },
+    "following_instructions": {
+      "title": "Magsanay ng pagsunod sa 1–2 hakbang na tagubilin",
+      "behavior": "Magbigay ng isang malinaw na tagubilin sa isang pagkakataon gamit ang kanilang pangalan, jeda, at isang aksyon",
+      "frequency": "10+ natural na pagkakataon bawat araw",
+      "why": "Ang simple, malinaw na mga tagubilin ay nakababawas ng mga kahilingan sa pagproseso at nagtatayo ng kooperasyon nang walang pagtatalo.",
+      "how": "Ngayong linggo: gumamit ng format na Pangalan-Jeda-Tagubilin ('Aiden… [jeda] … isuot ang sapatos'). Hintayin ang 5 segundo. Mag-prompt nang isang beses.",
+      "week1": "Patuloy kayong gumagamit ng format na Pangalan-Jeda-Tagubilin; ang inyong anak ay sumusunod sa 1-hakbang na tagubilin 50%+ ng oras",
+      "week2": "Ang inyong anak ay sumusunod sa pamilyar na 1-hakbang na tagubilin sa unang prompt karamihan ng oras",
+      "week4": "Ang rate ng kooperasyon sa bahay ay kapansin-pansing tumaas; mas kaunting pagtanggi sa simpleng kahilingan"
+    },
+    "emotional_regulation": {
+      "title": "Itayo ang bokabularyo ng damdamin nang magkasama",
+      "behavior": "Pangalanan ang mga damdamin nang malakas sa buong araw at mag-alok ng kasangkapan para payapain kapag mahirap ang regulasyon",
+      "frequency": "araw-araw, nakakalat sa natural na mga sandali",
+      "why": "Ang mga batang marunong pangalanan ang kanilang nararamdaman ay mas mahusay na nag-re-regulate. Ang pag-modelo nito sa inyong sarili ay ang pinakaepektibong pagtuturo.",
+      "how": "Magsimula sa malakas na pag-pangalan ng inyong sariling damdamin ('Nakakaramdam ako ng pagkabigo ngayon — kukuha ako ng malalim na hininga').",
+      "week1": "Pinangangalanan ninyo ang mga damdamin (sa inyo at sa kanila) nang hindi bababa sa 3× bawat araw ngayong linggo",
+      "week2": "Ang inyong anak ay nagsisimulang gumamit ng hindi bababa sa isang salita o galaw ng damdamin nang kusa",
+      "week4": "Ang inyong anak ay nakaka-kilala ng 3+ damdamin sa kanilang sarili o sa iba at gumagamit ng isang paraan ng pagpapanatag"
+    }
+  },
+
+  "settings": {
+    "language_section": "Wika",
+    "language_option": "Wika ng App",
+    "language_current_en": "English",
+    "language_current_tl": "Tagalog",
+    "language_change_prompt": "Piliin ang inyong gustong wika",
+    "onboarding_redo": "Ulitin ang onboarding survey",
+    "onboarding_redo_confirm": "Ibabalik nito kayo sa setup survey. Ang inyong kasalukuyang plano ay papalitan."
+  }
+}

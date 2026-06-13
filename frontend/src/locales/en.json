@@ -1,0 +1,340 @@
+{
+  "common": {
+    "next": "Next",
+    "back": "Back",
+    "save_later": "Save and continue later",
+    "step_of": "Step {{current}} of {{total}}",
+    "done": "Done",
+    "skip": "Skip",
+    "save": "Save",
+    "cancel": "Cancel",
+    "change_language": "Change language",
+    "loading": "Loading…",
+    "generating": "Generating your plan…",
+    "error_generic": "Something went wrong. Please try again."
+  },
+
+  "language_select": {
+    "welcome_en": "Welcome — choose your language to continue.",
+    "welcome_tl": "Maligayang pagdating — pumili ng wika para magpatuloy.",
+    "note": "You can change this anytime in Settings.",
+    "btn_english": "English",
+    "btn_tagalog": "Tagalog",
+    "tagalog_subtitle": "Wikang Filipino"
+  },
+
+  "onboarding": {
+    "intro_title": "Let's learn about your child",
+    "intro_body": "This takes about 5 minutes. Your answers help us build a daily routine and goals made just for your family.",
+    "intro_start": "Let's begin",
+    "save_later_confirm": "Your progress has been saved. You can continue anytime from the home screen.",
+
+    "step_child_name": {
+      "question": "What is your child's name?",
+      "placeholder": "e.g. Aiden",
+      "helper": "This is how we'll refer to them throughout the app."
+    },
+    "step_child_age": {
+      "question": "How old is {{name}}?",
+      "placeholder": "Enter age",
+      "helper": "Age helps us suggest age-appropriate activities and routines.",
+      "years": "years old"
+    },
+    "step_diagnosis": {
+      "question": "When was {{name}} diagnosed?",
+      "placeholder": "e.g. 2022",
+      "helper": "Approximate year is fine. This helps us understand where you are in your journey.",
+      "skip": "Not yet diagnosed / Skip"
+    },
+    "step_communication": {
+      "question": "How does {{name}} communicate?",
+      "helper": "Choose the option that best describes them right now.",
+      "nonverbal": "Non-verbal",
+      "nonverbal_desc": "Uses gestures, sounds, or behaviour",
+      "minimal": "Minimally verbal",
+      "minimal_desc": "A few words or phrases",
+      "verbal": "Verbal",
+      "verbal_desc": "Uses sentences, needs support",
+      "fluent": "Conversational",
+      "fluent_desc": "Speaks clearly most of the time",
+      "aac": "Uses AAC",
+      "aac_desc": "Picture board, device, or PECS"
+    },
+    "step_challenges": {
+      "question": "What are {{name}}'s biggest challenges right now?",
+      "helper": "Select all that apply — be honest, this is just for you.",
+      "sleep": "Sleep",
+      "feeding": "Eating / Feeding",
+      "transitions": "Transitions",
+      "meltdowns": "Meltdowns",
+      "social": "Social interaction",
+      "focus": "Focus / Attention",
+      "motor": "Motor skills",
+      "toileting": "Toileting",
+      "anxiety": "Anxiety",
+      "sensory": "Sensory sensitivity"
+    },
+    "step_strengths": {
+      "question": "What does {{name}} love or do well?",
+      "helper": "Select all that apply. We build routines around strengths.",
+      "music": "Music",
+      "numbers": "Numbers & patterns",
+      "animals": "Animals",
+      "drawing": "Drawing & art",
+      "routines": "Following routines",
+      "technology": "Technology",
+      "reading": "Books & reading",
+      "movement": "Movement & sports",
+      "crafts": "Building & crafts",
+      "nature": "Outdoors & nature",
+      "freetext_label": "Anything else? (optional)",
+      "freetext_placeholder": "e.g. trains, dinosaurs, maps…"
+    },
+    "step_schedule": {
+      "question": "What does {{name}}'s day look like?",
+      "helper": "Approximate times are fine.",
+      "wake_time": "Wake-up time",
+      "school_start": "School / therapy start",
+      "school_end": "School / therapy end",
+      "no_school": "No school / home full time",
+      "bedtime": "Bedtime",
+      "screen_time": "Screen time per day",
+      "screen_none": "None",
+      "screen_30": "Under 30 min",
+      "screen_1h": "About 1 hour",
+      "screen_2h": "1–2 hours",
+      "screen_more": "More than 2 hours"
+    },
+    "step_goals": {
+      "question": "What are your top goals for {{name}} right now?",
+      "helper": "Pick up to 3. We'll build a plan around these.",
+      "max_hint": "Up to 3 goals",
+      "sleep": "Better sleep",
+      "mealtime": "Calmer mealtimes",
+      "meltdowns": "Fewer meltdowns",
+      "communication": "More communication",
+      "toileting": "Toileting independence",
+      "sensory": "Sensory regulation",
+      "social": "Social skills",
+      "school": "School readiness",
+      "instructions": "Following instructions",
+      "emotional": "Emotional regulation",
+      "independence": "Daily independence"
+    },
+    "step_support": {
+      "question": "Who else supports {{name}}?",
+      "helper": "This helps us acknowledge your whole care team.",
+      "other_parent": "Other parent / co-parent",
+      "lola_lolo": "Lola / Lolo (grandparents)",
+      "siblings": "Siblings (Kuya / Ate)",
+      "therapist": "Therapist / OT / SLP",
+      "teacher": "Teacher / school aide",
+      "caregiver": "Other caregiver",
+      "just_me": "Mostly just me"
+    },
+
+    "result_title": "Your plan is ready! 🎉",
+    "result_subtitle": "Here's {{name}}'s personalised daily routine and your 3 parent goals.",
+    "result_routine_tab": "Daily Routine",
+    "result_goals_tab": "My Goals",
+    "result_done": "Start using Ading",
+    "result_save_pdf": "Save as PDF",
+
+    "routine_section_morning": "Morning",
+    "routine_section_midday": "Midday",
+    "routine_section_afternoon": "Afternoon",
+    "routine_section_evening": "Evening",
+
+    "goal_label_week1": "Week 1",
+    "goal_label_week2": "Week 2",
+    "goal_label_week4": "Month 1",
+    "goal_why": "Why this matters",
+    "goal_how": "How to start",
+    "goal_frequency": "{{frequency}} for {{days}} days"
+  },
+
+  "routine": {
+    "morning_wake": "Wake up & start the day",
+    "morning_hygiene": "Brush teeth & freshen up",
+    "morning_breakfast": "Breakfast time",
+    "morning_visual_review": "Review today's visual schedule",
+    "morning_sensory": "Sensory warm-up",
+    "morning_aac": "AAC board check-in",
+    "morning_prepare": "Get bag & clothes ready",
+    "morning_transition": "Transition to school",
+    "midday_lunch": "Lunch time",
+    "midday_break": "Midday rest break",
+    "midday_learning": "Focused learning activity",
+    "midday_therapy": "Therapy / OT / SLP session",
+    "midday_movement": "Movement break",
+    "afternoon_snack": "After-school snack",
+    "afternoon_play": "Free play / outdoor time",
+    "afternoon_sensory": "Sensory break",
+    "afternoon_social": "Social play time",
+    "afternoon_homework": "Homework / structured activity",
+    "afternoon_creative": "Creative / strength activity",
+    "evening_dinner": "Dinner time",
+    "evening_bath": "Bath & hygiene",
+    "evening_calm": "Calming wind-down",
+    "evening_story": "Story / quiet reading",
+    "evening_visual_tomorrow": "Preview tomorrow's schedule",
+    "evening_sleep": "Sleep time"
+  },
+
+  "why": {
+    "predictable_start": "A consistent start helps regulate your child's nervous system and reduces morning anxiety.",
+    "hygiene_routine": "Step-by-step hygiene routines build independence and sensory tolerance over time.",
+    "structured_meal": "Eating at consistent times reduces mealtime refusal and builds nutritional security.",
+    "visual_schedule": "Seeing the day ahead reduces anxiety and helps your child feel safe and in control.",
+    "sensory_warmup": "Gentle sensory input before school prepares the nervous system and improves focus.",
+    "aac_morning": "Morning AAC practice sets the tone for communication throughout the day.",
+    "calm_transition": "Transition warnings and visual cues reduce the stress of moving between activities.",
+    "midday_rest": "Short rest breaks prevent sensory overload and support sustained attention.",
+    "movement_break": "Movement regulates the nervous system and improves focus for learning.",
+    "learning_activity": "Predictable learning time builds academic routine without pressure.",
+    "therapy_session": "Consistent therapy scheduling helps skills generalise into daily life.",
+    "afternoon_play": "Child-led free play builds creativity, self-regulation, and joy.",
+    "sensory_break": "Scheduled sensory breaks prevent cumulative overload before meltdown.",
+    "social_play": "Low-pressure social time builds connection skills without the demands of school.",
+    "calming_dinner": "A calm dinner environment supports digestion and family connection.",
+    "bath_routine": "A warm bath with consistent steps signals the body that sleep is coming.",
+    "wind_down": "Screen-free wind-down time helps transition the nervous system to sleep mode.",
+    "story_time": "Shared reading builds language, bonding, and a positive sleep association.",
+    "preview_tomorrow": "Previewing tomorrow reduces overnight anxiety and morning resistance.",
+    "sleep_hygiene": "Consistent sleep timing improves mood, learning, and behaviour across the board."
+  },
+
+  "tips": {
+    "morning_wake_nonverbal": "Use a consistent sound or light cue (same song, same lamp) rather than words.",
+    "morning_wake_verbal": "Give a 5-minute warning before asking them to get up. Rushing causes dysregulation.",
+    "visual_schedule_tip": "Point to each picture card as you complete it, then let your child move or tick it off.",
+    "hygiene_steps": "Break hygiene into 3–5 picture steps posted in the bathroom. Praise each step.",
+    "breakfast_picky": "Offer one safe food alongside one new food. Never force — exposure builds tolerance.",
+    "sensory_warmup_tip": "Try 2 minutes of heavy work (pushing against a wall, carrying a backpack) before school.",
+    "aac_morning_tip": "Point to the schedule picture on the AAC board and say the word together each morning.",
+    "calm_transition": "Give a 5-minute, then 2-minute verbal and visual warning before every transition.",
+    "midday_rest_tip": "A quiet corner with headphones, a weighted blanket, or dim light works well.",
+    "movement_tip": "Star jumps, animal walks, or a short walk around the block are all effective.",
+    "afternoon_play_tip": "Let your child choose the activity. Unstructured time reduces demand and builds joy.",
+    "sensory_break_tip": "Watch for early signs of overload (covering ears, pacing) and offer the break proactively.",
+    "social_tip": "Start with one familiar peer for 20 minutes rather than group settings.",
+    "bath_tip": "Use the same bath products, same order, same towel. Predictability is calming.",
+    "wind_down_tip": "Dim lights 30 minutes before bed. Avoid screens. Soft music or white noise helps.",
+    "story_tip": "Let your child choose the book. Re-reading the same book is fine — it's comforting.",
+    "preview_tip": "Use 2–3 picture cards to show what happens tomorrow morning. Keep it brief and positive.",
+    "sleep_tip": "A consistent bedtime within 15 minutes each night has the biggest impact on sleep quality."
+  },
+
+  "goal": {
+    "improve_sleep_routine": {
+      "title": "Build a consistent bedtime routine",
+      "behavior": "Complete a 4-step wind-down routine (bath, dim lights, story, sleep) at the same time each night",
+      "frequency": "nightly",
+      "why": "Sleep is the single biggest lever for behaviour, focus, and mood. A predictable bedtime routine trains the brain to expect sleep.",
+      "how": "Start with just one change — pick a consistent bedtime and stick to it for 7 nights before adding more steps.",
+      "week1": "Same bedtime 5 out of 7 nights",
+      "week2": "2-step routine (bath + story) completed 5 out of 7 nights",
+      "week4": "Full 4-step routine completed most nights; your child shows fewer bedtime resistance behaviours"
+    },
+    "consistent_mealtime": {
+      "title": "Create calm, structured mealtimes",
+      "behavior": "Serve meals at the same time each day with a consistent plate, seating, and visual sequence",
+      "frequency": "3× daily",
+      "why": "Predictable mealtimes reduce sensory stress around food and gradually expand food acceptance.",
+      "how": "Pick one meal to start (usually breakfast). Use the same plate, same seat, same 2–3 foods for one week.",
+      "week1": "Breakfast served at the same time with no pressure for 7 days",
+      "week2": "Your child sits for 10+ minutes at 2 meals per day without major distress",
+      "week4": "Mealtime refusal drops noticeably; your child tolerates one new food alongside safe foods"
+    },
+    "reduce_meltdowns": {
+      "title": "Build a calming toolkit for big moments",
+      "behavior": "Identify 3 early warning signs and practise 2 calming strategies before meltdown escalates",
+      "frequency": "as needed, practise daily",
+      "why": "Meltdowns are communication. Teaching regulation tools helps your child self-soothe and reduces family stress.",
+      "how": "This week: identify your child's 3 earliest warning signs. Write them down.",
+      "week1": "You can name 3 early signs and 1 effective calming strategy",
+      "week2": "You intervene at the early sign stage at least 3 times without escalation",
+      "week4": "Meltdown duration and frequency visibly reduced; your child begins using 1 strategy themselves"
+    },
+    "communication_practice": {
+      "title": "Daily communication practice",
+      "behavior": "Spend 10 minutes each day in a focused communication exchange — verbal, AAC, or gesture-based",
+      "frequency": "daily, 10 minutes",
+      "why": "Frequent, low-pressure communication opportunities are the most effective way to build language — more than formal therapy alone.",
+      "how": "Follow your child's lead. Narrate what they are doing ('You're pushing the car!') without requiring a response.",
+      "week1": "10-minute play-based communication session happens 5 out of 7 days",
+      "week2": "Your child initiates communication (gesture, sound, word) at least once per session",
+      "week4": "Noticeable increase in communication attempts during the session and in daily life"
+    },
+    "toileting_independence": {
+      "title": "Build toileting independence step by step",
+      "behavior": "Follow a consistent toilet schedule and visual toilet routine",
+      "frequency": "every 2 hours during waking hours",
+      "why": "Toileting independence improves self-confidence and reduces one of the biggest sources of family stress.",
+      "how": "Start with scheduled toilet trips every 2 hours. Use a simple visual sequence posted in the bathroom.",
+      "week1": "Scheduled toilet trips happen consistently without refusal most days",
+      "week2": "Your child completes 2+ steps of the visual routine independently",
+      "week4": "Your child initiates or cooperates with toileting at least 70% of the time"
+    },
+    "sensory_regulation": {
+      "title": "Develop a daily sensory diet",
+      "behavior": "Provide 3 scheduled sensory input opportunities throughout the day",
+      "frequency": "3× daily",
+      "why": "A predictable sensory diet reduces overload, improves focus, and gives your child's nervous system what it needs to stay regulated.",
+      "how": "Identify your child's top sensory need (movement? pressure? quiet?). Add one 10-minute sensory break after breakfast.",
+      "week1": "One morning sensory break added to the routine with no resistance",
+      "week2": "Three sensory breaks scheduled; your child transitions more smoothly to activities afterwards",
+      "week4": "Fewer sensory-driven meltdowns; your child begins to seek their sensory tools independently"
+    },
+    "social_skills": {
+      "title": "Create regular low-pressure social moments",
+      "behavior": "Arrange one structured social activity per week with a familiar peer",
+      "frequency": "1× per week",
+      "why": "Repeated, low-pressure social experiences build connection skills far more effectively than group settings.",
+      "how": "Start with a 20-minute playdate at home (your child's safe space) with one familiar child.",
+      "week1": "One playdate or social activity completed — any outcome is success",
+      "week2": "Your child tolerates 20+ minutes of proximity with another child without major distress",
+      "week4": "Your child shows interest in or initiates interaction with a peer at least once"
+    },
+    "school_readiness": {
+      "title": "Build a strong school-to-home transition",
+      "behavior": "Create a consistent after-school decompression routine",
+      "frequency": "daily after school",
+      "why": "Children with autism often hold it together at school and decompress at home. A predictable landing routine prevents meltdowns and eases re-entry.",
+      "how": "After school: offer a silent snack, no demands, and preferred activity for 15–20 minutes before homework or tasks.",
+      "week1": "After-school snack routine in place with less than 3 meltdowns this week",
+      "week2": "Your child transitions from school to home and decompresses within 20 minutes most days",
+      "week4": "School day emotional regulation has improved; fewer end-of-day meltdowns"
+    },
+    "following_instructions": {
+      "title": "Practice following 1–2 step instructions",
+      "behavior": "Give one clear instruction at a time using their name, a pause, and one action",
+      "frequency": "10+ natural opportunities daily",
+      "why": "Simple, clear instructions reduce processing demands and build cooperation without confrontation.",
+      "how": "This week: use the Name-Pause-Instruction format ('Aiden… [pause] … shoes on'). Wait 5 seconds. Prompt once.",
+      "week1": "You consistently use Name-Pause-Instruction format; your child follows 1-step instructions 50%+ of the time",
+      "week2": "Your child follows familiar 1-step instructions with first prompt most of the time",
+      "week4": "Cooperation rate at home has increased noticeably; fewer refusals to simple requests"
+    },
+    "emotional_regulation": {
+      "title": "Build an emotional vocabulary together",
+      "behavior": "Name emotions aloud during the day and offer a calm-down tool when regulation is hard",
+      "frequency": "daily, woven into natural moments",
+      "why": "Children who can name their feelings regulate them better. Modelling this yourself is the most powerful teaching.",
+      "how": "Start by naming your own emotions out loud ('I feel frustrated right now — I'm going to take a deep breath').",
+      "week1": "You name emotions (yours and theirs) at least 3× per day this week",
+      "week2": "Your child begins to use at least one feeling word or gesture spontaneously",
+      "week4": "Your child recognises 3+ emotions in themselves or others and uses one calming strategy"
+    }
+  },
+
+  "settings": {
+    "language_section": "Language",
+    "language_option": "App Language",
+    "language_current_en": "English",
+    "language_current_tl": "Tagalog",
+    "language_change_prompt": "Choose your preferred language",
+    "onboarding_redo": "Redo onboarding survey",
+    "onboarding_redo_confirm": "This will take you back through the setup survey. Your current plan will be replaced."
+  }
+}
