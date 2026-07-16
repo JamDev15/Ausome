@@ -15,6 +15,9 @@
       "distribution": "internal",
       "android": {
         "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://REPLACE_WITH_RENDER_URL/api/v1"
       }
     },
     "production": {
