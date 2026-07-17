@@ -6,6 +6,7 @@ import os
 from app.core.config import settings
 from app.api.v1.router import api_router
 from app.db.session import init_db
+from app.db.seed import seed
 
 app = FastAPI(
     title=settings.APP_NAME,
@@ -40,4 +41,5 @@ async def health_check():
 @app.on_event("startup")
 async def startup():
     await init_db()
+    await seed()
     print(f"🟢 {settings.APP_NAME} started in {settings.APP_ENV} mode")
