@@ -32,8 +32,8 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#5B8DEF"
+        "foregroundImage": "./assets/ausome-logo.png",
+        "backgroundColor": "#FFFFFF"
       },
       "package": "com.ausome.app",
       "targetSdkVersion": 34,
