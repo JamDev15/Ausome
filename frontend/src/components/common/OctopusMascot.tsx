@@ -7,7 +7,7 @@ interface Props {
 
 export const OctopusMascot: React.FC<Props> = ({ size = 200 }) => (
   <Image
-    source={require('../../../assets/app-icon.png')}
+    source={require('../../../assets/ausome-logo.png')}
     style={{ width: size, height: size }}
     resizeMode="contain"
   />

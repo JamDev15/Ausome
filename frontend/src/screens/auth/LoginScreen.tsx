@@ -71,7 +71,7 @@ export const LoginScreen: React.FC<Props> = ({ navigation }) => {
         {/* Logo */}
         <View style={styles.header}>
           <Image
-            source={require('../../../assets/welcome-icon.png')}
+            source={require('../../../assets/ausome-logo.png')}
             style={{ width: 120, height: 120 }}
             resizeMode="contain"
           />

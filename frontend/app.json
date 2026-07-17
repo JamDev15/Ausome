@@ -4,7 +4,7 @@
     "slug": "ausome",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/app-icon.png",
+    "icon": "./assets/ausome-logo.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -59,7 +59,7 @@
       [
         "expo-notifications",
         {
-          "icon": "./assets/app-icon.png",
+          "icon": "./assets/ausome-logo.png",
           "color": "#5B8DEF",
           "sounds": [],
           "iosDisplayInForeground": true
